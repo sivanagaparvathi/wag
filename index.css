@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&display=swap');
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+   
+}
+.header-section{
+    display: flex;
+    
+    
+}
+.wag{
+    color:cadetblue;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Ubuntu Mono', monospace;
+
+}
+.nav-items{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+    column-gap: 25px;
+}
+.each-section{
+    display: flex;
+    column-gap: 5px;
+  
+}
+.deals{
+    width:80px;
+    height: 30px;
+    border-radius: 30px;
+    border:none;
+    background-color: orange;
+    margin-top:5px;
+    
+}
+.last-section{
+    display: flex;
+    margin-left: 250px;
+    column-gap: 30px;
+    margin-top: 10px;
+}
+.last-two{
+    display: flex;
+    column-gap: 10px;
+}
+.caregiver{
+    color: lightseagreen;
+    font-size: 20px;
+    
+}
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    
+    
+    min-height: 100vh;
+   background: linear-gradient(to right,lightseagreen,skyblue
+    );
+    position: absolute;
+    margin-top:80px;
+}
+
+.content-part{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.heading{
+    color: white;
+    font-size:50px;
+    font-family: 'Rethink Sans', sans-serif;
+    position: absolute;  
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.heading1{
+    color: white;
+    font-size:52px;
+    line-height: 5px;
+    
+
+}
+.des{
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: 'Rethink Sans', sans-serif;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-weight: 300;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+.image-section{
+    display: inline-block ;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 100PX;
+
+}
+.image-section img{
+    display: inline-block;
+    width:70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 3px solid  skyblue;
+    
+
+   
+}
+.sign-card{
+    height: 700px;
+    width:45%;
+    background-color: rgb(233, 226, 226);
+    margin-top: 150px;
+   
+    
+    margin-left: 50%;
+    position: absolute;
+    border-radius: 20px;
+ 
+
+}
+.sign-heading{
+    font-size:20px;
+    font-family: 'Rethink Sans', sans-serif;
+    color: lightslategray;
+    margin-left: 40px;
+    margin-top: 30px;
+    
+
+}
+.inner-section{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    position: absolute;
+    
+    
+}
+.input-section{
+    display: flex;
+   flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+    
+}
+.input{
+    width: 280px;
+    height: 30px;
+    font-size: 18px;
+    padding: 5px;
+    color: darkgoldenrod;
+    border-radius: 8px;
+    border: 1px solid darkgray;
+    margin-bottom: 20px;
+    
+}
+.qr-section{
+    width:200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+   
+}
+.qrr-image{
+    width:80px;
+    height: 60px;
+  
+}
+.qr-section-para{
+    margin-left: 20px;
+    font-size: 20px;
+    color: darkgray;
+    text-align: center;
+    
+   
+}
+
+
+.wave-img{
+ width: 100%;
+ height: 900px;
+ position: absolute;
+ margin-top: 70px;
+ 
+}
+#sign-para{
+    margin-top:400px;
+    margin-left: 30px;
+    color: rgb(132, 129, 129);
+}
+.checkbox{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.checkbox-para{
+    float: right;
+    margin-right: 260px;
+    margin-top: 30px;
+    color: rgb(83, 81, 81);
+}
+.checkbox-para1{
+
+    float: right;
+    margin-right: 260px;
+    margin-top: 0;
+
+    color: rgb(83, 81, 81);
+  padding-bottom: 50px;
+
+}
+.checkbox1{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    background-color: rgb(100, 98, 98);
+    border-radius: 10px;
+    border:none;
+    margin-top: 30px;
+    color: gainsboro;
+}
+.why-wag-heading{
+  position: absolute;
+  margin-top: 950px;
+  margin-left: 500px;
+  font-size: 48px;
+  color: rgb(132, 132, 228);
+}
+.calender{
+    width:100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 110px;
+    margin-left: 120px;
+    position: absolute;
+}
+.calender-para{
+    margin-left: 60px;
+    font-size: 24px;
+    color: rgb(132, 132, 228);
+    font-weight: 600;
+    margin-top: 130px;
+  
+
+}
+.calender-para1{
+    margin-left: 50px;
+    font-size: 18px;
+    color: rgb(132, 132, 228);
+    margin-top: 0px;
+}
+.card{
+    width: 350px;
+    height: 260px;
+    background-color: white;
+    border:1px solid darkgray;
+ 
+    margin-top: 1000px;
+    margin-left: 50px;
+    border-radius: 10px;
+    box-shadow: 20 20 0 0 red;
+}
+.card1{
+    width: 350px;
+    height: 260px;
+    background-color: white;
+    border:1px solid darkgray;
+ 
+   
+    margin-left: 480px;
+    border-radius: 10px;
+    position: absolute;
+    float: right;
+    box-shadow: 20 20 0 0 red;
+    margin-top: 1050px;
+
+
+}
+.card2{
+    width: 350px;
+    height: 260px;
+    background-color: white;
+    border:1px solid darkgray;
+  margin-top: 1050px;
+   
+    margin-left: 900px;
+    border-radius: 10px;
+    
+    float: right;
+    box-shadow: 20 20 0 0 red;
+   position: absolute;
+
+
+}
+.wave-1{
+    margin-top: 20px;
+    width: 100%;
+    height: 900px;
+}
+.wave-heading{
+    position: absolute;
+    margin-top: 1400px;
+   margin-left: 50px;
+   font-size: 42px;
+   color: rgb(53, 54, 54);
+}
+.wave-para{
+    position: absolute;
+    margin-top: 1520px;
+    margin-left: 50px;
+    font-size: 18px;
+    color: rgb(53, 54, 54);
+}
+.wave-para1{
+    position: absolute;
+    margin-top: 0px;
+    margin-top: 1590px;
+    margin-left: 50px;
+    font-size: 20px;
+    color: rgb(139, 137, 7);
+
+}
+.dog{
+    width: 600px;
+    height: 300px;
+    float: right;
+    margin-left: 550px;
+    position: absolute;
+    margin-top: 1400px;
+    border-radius: 20px;
+    
+}
+.cards2-heading{
+    font-size: 48px;
+    position: absolute;
+    margin-top: 1950px;
+    margin-left: 280px;
+    color: rgb(99, 98, 98);
+
+}
+.card-white{
+    width:450px;
+    height: 150px;
+    border: 1px solid lightgrey;
+    background-color: rgb(237, 138, 138);
+    position: absolute;
+    margin-top: 2050px;
+    margin-left: 130px;
+    display: flex;
+   border-radius: 20px;
+
+    
+}
+.card-white-para{
+    font-size: 22px;
+    margin-left: 30px;
+    color: white;
+    position: absolute;
+
+}
+.person{
+    width:120px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: 280px;
+    position: absolute;
+    margin-top: 20px;
+   
+
+}
+.card-white1{
+    width:450px;
+    height: 150px;
+    border: 1px solid lightgrey;
+    background-color: rgb(237, 138, 138);
+    position: absolute;
+    margin-top: 2050px;
+    margin-left: 700px;
+    display: flex;
+   border-radius: 20px;
+}
+.play{
+    width:50px;
+    height: 50px;
+    margin-top: 130px;
+    margin-left: 40px;
+    
+    border-radius: 30px;
+
+}
+.person-name{
+    margin-left: 20px;
+    margin-top: 150px;
+}
